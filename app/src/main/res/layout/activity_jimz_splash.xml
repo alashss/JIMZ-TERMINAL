@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jimz_splash_background"
+    android:padding="28dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        android:background="@color/jimz_accent_dark"
+        android:alpha="0.55" />
+
+    <LinearLayout
+        android:id="@+id/splash_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/splash_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">_"
+            android:textColor="@color/jimz_accent"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/splash_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:text="JIMZ"
+            android:textColor="@color/jimz_text"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:text="TERMINAL"
+            android:textColor="@color/jimz_accent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.30" />
+
+        <View
+            android:layout_width="72dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/jimz_accent_bar" />
+
+        <TextView
+            android:id="@+id/splash_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="BOOTING JIMZ SHELL"
+            android:textColor="@color/jimz_muted"
+            android:textSize="10sp"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.14" />
+
+        <TextView
+            android:id="@+id/splash_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="[  ]"
+            android:textColor="@color/jimz_accent"
+            android:textSize="11sp"
+            android:fontFamily="monospace" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:text="JIMZ • MOBILE SHELL"
+        android:textColor="@color/jimz_muted"
+        android:textSize="9sp"
+        android:fontFamily="monospace"
+        android:letterSpacing="0.12" />
+</FrameLayout>

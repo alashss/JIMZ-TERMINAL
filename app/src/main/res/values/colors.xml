@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="jimz_accent">#B56CFF</color>
+    <color name="jimz_accent_dark">#7C3AED</color>
+    <color name="jimz_text">#F5F3FF</color>
+    <color name="jimz_muted">#9B95A8</color>
+    <color name="jimz_surface">#111116</color>
+    <color name="jimz_surface_2">#191820</color>
+</resources>
